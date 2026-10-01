@@ -1,0 +1,11 @@
+{
+  "name": "chatspace-charmdate",
+  "version": "1.0.0",
+  "description": "ChatSpace analogue for CharmDate (Qpid Network)",
+  "scripts": {
+    "start": "node --import tsx backend/src/index.ts",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build"
+  }
+}
