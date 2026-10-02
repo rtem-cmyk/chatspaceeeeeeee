@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: imperia-chatspace
+    env: node
+    buildCommand: "./render-build.sh"
+    startCommand: "cd backend && npm start"
+    envVars:
+      - key: NODE_VERSION
+        value: 20
